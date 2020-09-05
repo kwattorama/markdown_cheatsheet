@@ -43,7 +43,7 @@ I am *italic* by asterisk. I am _italic_ by undrescore.
 ```
 -------------------------------------------------------
 
-**Straightthrough:** : use double Tidle(~) symbol which is below Esc Key  
+**Straightthrough:** : use double Tilde(~) symbol which is below Esc Key  
 
 ~~Straightthrough~~
 ```Markdown
@@ -64,16 +64,17 @@ I am *italic* by asterisk. I am _italic_ by undrescore.
 + Item 3
 ```
 ---------------------------------------------------
-*Ordered List**: use number dot(1.) and write the sublist with indentation
+**Ordered List**: use number dot(1.) and write the sublist with indentation
 
 1. Item1
-	1. SubItem
+  1. SubItem
 1. Item2
 2. Item3
 7. Item4
 
 ```Markdown
 1. Item1
+ 1. SubItem
 1. Item2
 2. Item3
 7. Item4
