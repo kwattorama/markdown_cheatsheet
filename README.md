@@ -197,7 +197,7 @@ let num = Math.square(10)
 |K| Green vegetable|Beri-Beri
 
 ------------------------------------------------------
-**Task list:** underscore(-) space sqare braces
+**Task list:** 
 
 ```Markdown
 - [x] Completed task name
@@ -214,7 +214,7 @@ let num = Math.square(10)
  <!-- comment in markdown -->
 ```
 ---------------------------------------------------------
-**Horizontal line:** Three or more than three hyphens(-) or asterisks(*), or underscores(_).
+**Horizontal line:** Three or more than three hyphens(-) or asterisks(*) or underscores(_).
 
 ```Markdown
 ___
@@ -230,10 +230,10 @@ ___
   
 
 ```Markdown
-![Markdown logo](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
+![ ](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
 ```
 
-![Markdown logo](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
+![ ](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
 
 
 feel free to improve this file. To see Markdown syntax used to make this readme file click [here](https://raw.githubusercontent.com/kwattorama/markdown_cheatsheet/master/README.md)
