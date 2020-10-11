@@ -1,17 +1,23 @@
 # Markdown Cheatsheet
-## What is Markdown and Markdown syntax?
-* Markdown is [markup language](https://www.techopedia.com/definition/2668/markup-language) like LaTex and HTML
-* Filename extension>>  **.md**
-* Markdown files are just formatted text files.
-* markdown syntax: plain text formatting syntax
-* use writing up web content faster - texts links and embed code or images in texts 
-* **Markdown is great for readme's**, messages in forums and for documentation
-* Main purpose: Readability and easy to use.
-----------------------------------------------------------
 
-**Headings:** use pound sign/hash symbol. Keep space after '#' 
+## What is Markdown and Markdown syntax
 
-```Markdown
+* Markdown is **[markup](https://www.techopedia.com/definition/2668/markup-language)** language like [LaTex](https://www.latex-project.org/) and [HTML](https://en.wikipedia.org/wiki/HTML)
+* Filename extension is **.md**
+* Markdown files are just formatted text files
+* Markdown syntax is plain text formatting syntax
+* Use writing up web content faster - texts links and embed code or images in texts
+* Markdown is great for **README**'s, messages in forums and for documentation
+* Main purpose of Markdown is **Readability** and **Ease of use**.
+
+---
+
+## Headings
+
+**Syntax:** Use pound sign/hash `#` symbol.
+**Note:** Add space after `#`.
+
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -23,84 +29,119 @@
 ### Heading 3
 #### Heading 4
 
------------------------------------------------------
-**Paragraph:** Use one blank line for seperation of paragraphs. To break the line press `Enter` key after trailing two white spaces or type `<br>`
+---
 
-```Markdown
+## Paragraph
+
+**Syntax:** Use one blank line for seperation of paragraphs. To break the line press `Enter` key after trailing two white spaces or type `<br>`
+
+```markdown
 Python is an interpreted, high-level, general-purpose programming language.
-<!-- blank line left to start new para -->
+<!-- blank line left to start new paragraph -->
 My presence is a gift.<br>Fun is where I am.<br>I make things happen. Smoothly
 ```
 
 Python is an interpreted, high-level, general-purpose programming language.
-<!-- blank line left to start new para -->
+<!-- blank line left to start new paragraph -->
 My presence is a gift.<br>Fun is where I am.<br>I make things happen. Smoothly
 
-----------------------------------------------------------
-**Bold text**: use double asterisk or underscore.
+---
 
-```Markdown
-I am **bold** by asterisk. I am __bold__ by undrescore.
+## Formatting
+
+### Bold
+
+**Syntax:** Use double asterisks or underscores.
+
+```markdown
+I am **bold** by asterisk. I am __bold__ by an underscore.
 ```
-I am **bold** by asterisk. I am __bold__ by undrescore.
 
------------------------------------------------------
-**Italic text**: use single asterisk or underscore.
+I am **bold** by asterisk. I am __bold__ by an underscore.
 
-```Markdown
-I am *italic* by asterisk. I am _italic_ by undrescore.
+### Italic
 
+**Syntax:** Use single asterisk or underscore.
+
+```markdown
+I am *italic* by asterisk.<br>I am _italic_ by undrescore.
 ```
+
 I am *italic* by asterisk.
 I am _italic_ by undrescore.
 
--------------------------------------------------------
-**Bold and Italic text**: use triple asterisk
+### Bold and Italic
 
-```Markdown
+**Syntax:** Use triple asterisk.
+
+```markdown
 I am ***italic and bold*** by triple asterisk.
 ```
 
 I am ***italic and bold*** by triple asterisk.
 
-----------------------------------------------------------
-**Straightthrough:** : use double Tidle(~) symbol which is below Esc Key  
+### Strikethrough
 
-```Markdown
-~~Straightthrough~~
+**Syntax:** Use double tidle(~) symbol which is below Esc Key.
+
+```markdown
+I'm ~~good~~ great!
 ```
 
-~~Straightthrough~~
+I'm ~~good~~ great!
 
----------------------------------------------------------
-**Blockquotes:** use right arrow > symbol at the start of every line. for nested blockquotes use >>
+---
 
-```Markdown
->asato mā sadgamaya  
->tamasomā jyotir gamaya  
->mrityormāamritam gamaya
->>Oṁ śhānti śhānti śhāntiḥ
+## Blockquotes
+
+**Syntax:** Use greater than`>` symbol at the start of every line. For nested blockquotes use `>>`.
+
+```markdown
+> asato mā sadgamaya  
+> tamasomā jyotir gamaya  
+> mrityormāamritam gamaya
+>> Oṁ śhānti śhānti śhāntiḥ
 ```
 
->asato mā sadgamaya  
->tamasomā jyotir gamaya  
->mrityormāamritam gamaya
->>Oṁ śhānti śhānti śhāntiḥ
+> asato mā sadgamaya  
+> tamasomā jyotir gamaya  
+> mrityormāamritam gamaya
+>> Oṁ śhānti śhānti śhāntiḥ
 
-----------------------------------------------------
-**Text Link:** [text to link](http:link here)
+---
 
-```Markdown
- "Python is [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language)*."
+## Links
+
+### Hyperlinks
+
+**Syntax:** [text to link](http:link here)
+
+```markdown
+Python is [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language)*.
 ```
 
- Python is [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language).
- 
- -----------------------------------------------------
-**Unordered List**: use hypen(-) or plus(+) or asterick(*) and write the sublist with indentation(2 spaces)
+Python is [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language).
 
-```Markdown
-* Unit 1          
+### Images
+
+**Syntax:** ![keep blank or ImageName or AltText](both local and web URL are supported)
+
+```markdown
+![ ](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
+```
+
+![ ](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
+
+---
+
+## Lists
+
+### Unordered List
+
+**Syntax:** Use hypen `-` or plus `+` or an asterisk `*` and write the sublist with indentation.
+
+```markdown
+* Unit 1
 - Unit 2
   - Unit 2.1
   - Unit 2.2
@@ -108,22 +149,23 @@ I am ***italic and bold*** by triple asterisk.
 + Unit 3
 ```
 
-* Unit 1          
+* Unit 1
 - Unit 2
   - Unit 2.1
   - Unit 2.2
       - Unit 2.2.1
 + Unit 3
 
---------------------------------------------------
-**Ordered List**: use number dot(1.) and write the sublist with indentation
+### Ordered List
 
-```Markdown
+**Syntax:** Use number dot or period `.` and write the sublist with indentation.
+
+```markdown
 1. Topic 1
 	1. SubTopic
-1. Topic 2
-1. Topic 3
-1. Topic 4
+2. Topic 2
+3. Topic 3
+4. Topic 4
 ```
 
 1. Topic 1
@@ -132,31 +174,41 @@ I am ***italic and bold*** by triple asterisk.
 1. Topic 3
 1. Topic 4
 
----------------------------------------------------
-**Code:**  
-```Markdown
+### Task List
+
+```markdown
+- [x] Completed task name
+- [ ] Unfinished task name
+```
+
+- [x] Completed task name
+- [ ] Unfinished task name
+
+---
+
+## Code
+
+### In-line Code
+
+**Syntax:**
+
+```markdown
 `This is inline code`
 ```
 
 `This is inline code`  
 
--------------------------------------------------
-**Block code for a particular language:** use Grave accent ( ` ), which is below Esc key
+### Block of Code
+
+**Syntax:** Name of the programming language followed by enclosed triple Grave accents or back ticks (**```**).
 
 ` ```languageName`
-  
-  ` ``` `
-
-example1: 
+` ``` `
 
 ` ```python`
-
 a = 3  
-
 b = 7
-
 print(f"Addition of {a} and {b} is {a + b}")
-  
 ` ``` `
 
 ```python
@@ -165,75 +217,60 @@ b = 7
 print(f"Addition of {a} and {b} is {a + b}")
 ```
 
-example2: 
-
 ` ```javascript `
-
 let num = Math.square(10)
-
 ` ``` `
 
 ```javascript
 let num = Math.square(10)
 ```
 
-------------------------------------------------------
-**Table:** made by using pipe( | ) which is above `Enter` key. First two rows with pipe(|) and minus(-) symbol are use to make header and new column
+## Table
 
-```Markdown
+**Syntax:** Made by using pipe `|` which is above `Enter` key. First two rows with pipe `|` and minus `-` symbol are use to make header and new column.
+
+```markdown
 | Vitamin |Source| Deficiency diseases |
 | ---| --- | --- |
 | A | Carrot  |Night blindness|
-| D | Sunlight| Rickets| 
+| D | Sunlight| Rickets|
 | C | Lemon| Scurvy|
 |K| Green vegetable|Beri-Beri
 ```
 
 | Vitamin |Source| Deficiency diseases
-| ---| --- | --- 
+| ---| --- | ---
 | A | Carrot |Night blindness
 | D | Sunlight| Rickets
 | C | Lemon| Scurvy
 |K| Green vegetable|Beri-Beri
 
-------------------------------------------------------
-**Task list:** 
+---
 
-```Markdown
-- [x] Completed task name
-- [ ] Unfinished task name
+## Comment
+
+**Syntax:**
+
+```markdown
+<!-- comment written in markdown -->
 ```
 
-- [x] Completed task name
-- [ ] Unfinished task name
+---
 
----------------------------------------------------------
-**Comment:**
+## Horizontal Line
 
-```Markdown
- <!-- comment in markdown -->
-```
----------------------------------------------------------
-**Horizontal line:** Three or more than three hyphens(-) or asterisks(*) or underscores(_).
+**Syntax:** Three or more than three hyphens `-` or asterisks `*` or underscores `_`.
 
-```Markdown
+```markdown
 ___
-*********
---------------------------------------------------
+***
+---
 ```
+
 ___
-*********
----------------------------------------------------------
+***
+---
 
----------------------------------------------------------
-**Uploading Image:** ![keep blank or ImageName](both local and web URL are supported)
-  
+---
 
-```Markdown
-![ ](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
-```
-
-![ ](http://browserengine.net/wp-content/uploads/1441861327mdh-logo-new.png)
-
-
-feel free to improve this file. To see Markdown syntax used to make this readme file click [here](https://raw.githubusercontent.com/kwattorama/markdown_cheatsheet/master/README.md)
+Feel free to improve this cheatsheet. To see Markdown syntax used to make this readme file click [here](https://raw.githubusercontent.com/kwattorama/markdown_cheatsheet/master/README.md).
